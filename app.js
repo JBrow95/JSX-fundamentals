@@ -12,3 +12,11 @@ ReactDOM.render(
     myNav,
     document.getElementById('app')
 );
+
+
+ReactDOM.render(
+    <div>
+        <h1>Without a var</h1>
+    </div>,
+    document.getElementById('app')
+);
