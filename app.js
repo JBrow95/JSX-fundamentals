@@ -33,3 +33,11 @@ ReactDOM.render(
 	myDiv,
   document.getElementById('app')
 );
+
+
+// adding Javascript inside of JSX elements
+
+ReactDOM.render( 
+    <h1>{2 + 3}</h1>, // This will print out 5 on the webpage
+    document.getElementById('app') 
+  );
