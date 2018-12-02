@@ -20,3 +20,16 @@ ReactDOM.render(
     </div>,
     document.getElementById('app')
 );
+
+// giving jsx class names is different than Html.
+
+const myDiv = (
+	<div className="big">
+  	I AM A BIG DIV
+  </div>
+);
+
+ReactDOM.render(
+	myDiv,
+  document.getElementById('app')
+);
